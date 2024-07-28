@@ -1,0 +1,39 @@
+Overview
+The Credit Card Fraud Detection project aims to identify fraudulent transactions using various machine learning algorithms. By leveraging transaction data, the project seeks to distinguish between legitimate and fraudulent activities, ensuring financial security and reducing economic losses due to fraud.
+
+Objectives
+To explore and analyze the credit card transaction dataset.
+To preprocess the data and engineer relevant features for improved prediction accuracy.
+To apply various machine learning algorithms for classifying transactions as fraudulent or legitimate.
+To evaluate and compare the performance of different models.
+To deploy the best-performing model for real-time fraud detection.
+
+Algorithms Used
+Random Forest Classifier
+
+Description: An ensemble method constructing multiple decision trees.
+Performance: Outperformed Logistic Regression, SVM, and Decision Tree classifiers, with and without hyperparameter tuning.
+Bagging Classifier
+
+Description: Uses multiple models trained on different subsets to reduce variance and prevent overfitting.
+Performance: Similar to Random Forest, outperformed Logistic Regression, SVM, and Decision Tree classifiers.
+XGBoost Classifier (XGB)
+
+Description: An optimized gradient boosting library.
+Performance: Performed best among all algorithms without any hyperparameter tweaking.
+Logistic Regression
+
+Description: Uses a logistic function to model a binary dependent variable.
+Performance: Less effective than ensemble methods.
+Support Vector Machine (SVM)
+
+Description: Constructs hyperplanes in a high-dimensional space for classification.
+Performance: Underperformed compared to ensemble methods.
+Decision Tree
+
+Description: Non-parametric method using decision rules inferred from data features.
+Performance: Underperformed relative to ensemble methods and XGBoost.
+
+Key Insights
+Amount Variable: From the training results, it was concluded that the 'Amount' variable did not significantly impact the prediction.
+in short
