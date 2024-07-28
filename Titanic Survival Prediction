@@ -1,8 +1,0 @@
-Overview
-The Titanic Survival Prediction project aims to predict whether a passenger survived or not based on various features such as age, gender, class, and more. This project uses machine learning techniques to build predictive models and evaluates their performance.
-
-Objectives
-To understand the factors that influenced survival on the Titanic.
-To apply various machine learning algorithms for classification tasks.
-To evaluate and compare the performance of different models.
-To provide a robust prediction system for new data.
