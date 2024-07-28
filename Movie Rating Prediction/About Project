@@ -1,0 +1,11 @@
+Overview
+The Movie Rating Prediction project aims to predict the ratings of movies based on various features such as genre, director, cast, and user demographics. The goal is to develop a machine learning model that can accurately predict movie ratings, helping streaming services, movie recommendation systems, and users make informed decisions.
+
+Objectives
+To explore and analyze the movie rating dataset.
+To preprocess the data and engineer relevant features.
+To apply machine learning algorithms, specifically the Stochastic Gradient Descent (SGD) Regressor, to predict movie ratings.
+To evaluate the performance of the model using metrics like Root Mean Squared Error (RMSE) and Relative Absolute Error (RAE).
+Algorithms Used
+Stochastic Gradient Descent (SGD) Regressor
+SGD Regressor is a linear model fitted by minimizing a regularized empirical loss with stochastic gradient descent. It is particularly useful for large-scale and sparse machine learning problems.
